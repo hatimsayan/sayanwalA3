@@ -1,0 +1,29 @@
+body {
+  background-color: lightgoldenrodyellow;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+}
+h3 {
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: center;
+}
+.gridArea {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "bookdetail bookimage";
+  grid-gap: 10px;
+}
+.bookdetails {
+  grid-area: bookdetail;
+  background-color: rgb(8, 55, 97);
+}
+.bookimage {
+  grid-area: bookimage;
+  background-color: rgb(13, 61, 102);
+}

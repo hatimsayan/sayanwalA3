@@ -1,0 +1,23 @@
+<nav>
+  <button
+    *ngFor="let mbs of mybooks; let i = index"
+    id="s{{ i }}"
+    (click)="onClickMe(i)"
+  >
+    {{ mbs.bkname }}
+  </button>
+</nav>
+<br />
+<main>
+  <section class="gridArea">
+    <div class="books">
+      <h3>Book Details</h3>
+      <br />
+      <div id="bookdetails"></div>
+    </div>
+    <div class="bookim">
+      <h3>Book Image</h3>
+      <div id="bookimage"></div>
+    </div>
+  </section>
+</main>

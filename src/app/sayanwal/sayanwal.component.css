@@ -1,0 +1,15 @@
+div {
+  background: lightsalmon;
+  height: auto;
+}
+nav {
+  text-align: center;
+}
+
+.bookim {
+  text-align: center;
+}
+
+#bookdetails {
+  font-size: 25px;
+}
